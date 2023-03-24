@@ -4,7 +4,8 @@
     "target": "es6",
     "sourceMap": true,
     "esModuleInterop": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "declaration": true
   },
   "files": ["tailwind.ts"],
   "include": ["images/**/*", "keplr/**/*"],
