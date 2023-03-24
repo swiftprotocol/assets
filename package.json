@@ -1,8 +1,9 @@
 {
   "name": "@swiftprotocol/assets",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Collection of Swift Protocol related assets & configuration files.",
   "main": "dist/tailwind.js",
+  "types": "dist/tailwind.d.ts",
   "repository": "https://github.com/swiftprotocol/assets.git",
   "author": "Josef Leventon <josef@swiftprotocol.zone>",
   "license": "MIT",
