@@ -7,7 +7,7 @@
   "author": "Josef Leventon <josef@swiftprotocol.zone>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc && cp -r -- {images,keplr} ./dist"
+    "build": "tsc"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
