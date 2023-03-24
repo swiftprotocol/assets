@@ -1,0 +1,23 @@
+{
+  "name": "@swiftprotocol/assets",
+  "version": "1.0.0",
+  "description": "Collection of Swift Protocol related assets & configuration files.",
+  "main": "dist/tailwind.js",
+  "repository": "https://github.com/swiftprotocol/assets.git",
+  "author": "Josef Leventon <josef@swiftprotocol.zone>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && cp -r -- {images,keplr} ./dist"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.8",
+    "copyfiles": "^2.4.1"
+  }
+}

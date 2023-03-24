@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "es6",
+    "esModuleInterop": true,
+    "baseUrl": "."
+  },
+  "files": ["tailwind.ts"],
+  "include": ["images/**/*", "keplr/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
