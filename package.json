@@ -1,6 +1,6 @@
 {
   "name": "@swiftprotocol/assets",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Collection of Swift Protocol related assets & configuration files.",
   "main": "dist/tailwind.js",
   "types": "dist/tailwind.d.ts",
